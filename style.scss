@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+html{
+    // overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+.gameover_overlay{
+    border: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    .gameover{
+        background-color: white;
+        width: 30%;
+        height: 100px;
+        text-align: center;
+    }
+}

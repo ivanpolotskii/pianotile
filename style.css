@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.gameover_overlay {
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gameover_overlay .gameover {
+  background-color: white;
+  width: 30%;
+  height: 100px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
